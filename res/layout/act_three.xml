@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <!-- 线性布局 
+    	android:layout_graviity决定组件的位置，
+    	android:gravity决定组件中的其他属性位置.
+    	 android:layout_weight指定组件大小
+    -->
+	<EditText 
+	    android:id="@+id/B"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="输入框...."
+	    />
+    <Button
+        android:id="@+id/A"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="send" />
+     <Button
+        android:id="@+id/C"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="back" />
+    
+</LinearLayout>
